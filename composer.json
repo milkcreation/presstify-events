@@ -1,6 +1,6 @@
 {
   "name": "presstify-plugins/events",
-  "description": "PresstiFy Plugin Cpanel",
+  "description": "PresstiFy Plugin Events",
   "type": "presstify-plugins",
   "keywords": ["presstify", "plugins", "wordpress", "events"],
   "homepage": "http://svn.milkcreation.fr/presstify-plugins/events",
