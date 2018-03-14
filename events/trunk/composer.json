@@ -1,0 +1,27 @@
+{
+  "name": "presstify-plugins/events",
+  "description": "PresstiFy Plugin Cpanel",
+  "type": "presstify-plugins",
+  "keywords": ["presstify", "plugins", "wordpress", "events"],
+  "homepage": "http://svn.milkcreation.fr/presstify-plugins/events",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy.manner@milkcreation.fr",
+      "role": "Developper"
+    }
+  ],
+  "config" : {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "tiFy\\Plugins\\Events\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

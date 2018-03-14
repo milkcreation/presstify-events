@@ -1,0 +1,24 @@
+Db:
+  install:      true
+  col_prefix:   'event_'
+  meta:         true
+  columns:
+    id:
+      type:           'BIGINT'
+      size:           20
+      unsigned:       true
+      auto_increment: true
+
+    post_id:
+      type:           'BIGINT'
+      size:           20
+      unsigned:       true
+      key:            'event_post_id'
+
+    start_datetime:
+      type:           'DATETIME'
+      default:        '0000-00-00 00:00:00'
+
+    end_datetime:
+      type:           'DATETIME'
+      default:        '0000-00-00 00:00:00'
