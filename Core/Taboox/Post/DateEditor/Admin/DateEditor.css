@@ -1,0 +1,56 @@
+.tify_events-taboox {
+	padding-bottom:80px;
+}
+.tify_events-taboox .tify_control_dynamic_inputs,
+.tify_events-taboox .tify_control_dynamic_inputs *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: 	border-box;
+	box-sizing: 		border-box;
+}
+.tify_events-taboox .tify_control_dynamic_inputs > li{
+	
+}
+.DateEdit-item::before,
+.DateEdit-item::after{
+	display:table;
+	content:"";
+}
+.DateEdit-item::after{
+	clear:both;
+}
+.DateEdit-item{
+	position:relative;
+	margin-left:20px;
+	padding:10px 0;
+}
+.DateEdit-item--control{
+	float:left;
+	width:25%;	
+}
+.DateEdit-item .tify_control_touch_time-wrapper{
+	display:inline-block;
+	font-size:11px;
+}
+.DateEdit-item input[type="number"],
+.DateEdit-item select{
+	font-size:12px;
+}
+
+.DateEdit-item label{
+	font-weight:bold;
+	margin-right:5px; margin-left:5px;
+}
+.DateEdit-itemPreview{
+	position:absolute;
+	top:0; right:0; bottom:0; left:-20px; 
+	width:20px;
+}
+
+.DateEdit-itemPreview textarea{
+	resize:none;
+	background-color:#FFF;
+	box-shadow:none;
+	background-color:#F4F4F4;
+	color:#DDD;
+	display:none;
+}
