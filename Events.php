@@ -3,7 +3,7 @@
 Plugin Name: Events
 Plugin URI: http://presstify.com/plugins/events
 Description: Gestion d'événements
-Version: 1.1.430
+Version: 1.0.0
 Author: Milkcreation
 Author URI: http://milkcreation.fr
 */
