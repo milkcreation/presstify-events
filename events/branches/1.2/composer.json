@@ -1,9 +1,15 @@
 {
   "name": "presstify-plugins/events",
-  "description": "PresstiFy Plugin Events",
-  "type": "presstify-plugins",
-  "keywords": ["presstify", "plugins", "wordpress", "events"],
-  "homepage": "http://svn.milkcreation.fr/presstify-plugins/events",
+  "description": "Extension PresstiFy de gestion d'événements.",
+  "type": "presstify-plugin",
+  "keywords": [
+    "presstify",
+    "plugins",
+    "wordpress",
+    "events"
+  ],
+  "homepage": "https://svn.tigreblanc.fr/presstify-plugins/events",
+  "time": "2019-01-08",
   "license": "proprietary",
   "authors": [
     {
@@ -12,10 +18,15 @@
       "role": "Developper"
     }
   ],
-  "config" : {
-    "preferred-install": "dist",
-    "sort-packages": true,
-    "optimize-autoloader": true
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.tigreblanc.fr/presstify/"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "presstify/framework": "1.2.*"
   },
   "autoload": {
     "psr-4": {
@@ -23,5 +34,10 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "config" : {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
 }
