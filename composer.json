@@ -3,8 +3,7 @@
   "description": "PresstiFy Plugin Events",
   "type": "presstify-plugins",
   "keywords": ["presstify", "plugins", "wordpress", "events"],
-  "homepage": "http://svn.milkcreation.fr/presstify-plugins/events",
-  "license": "proprietary",
+  "homepage": "https://github.com/milkcreation/presstify-events.git",
   "authors": [
     {
       "name": "Jordy Manner",
